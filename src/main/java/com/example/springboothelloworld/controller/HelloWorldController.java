@@ -9,6 +9,6 @@ public class HelloWorldController
     @RequestMapping("/")  
     public String hello()   
     {  
-      return "Hello World " + System.getenv("ENV");  
+      return "Hello World " + System.getenv("STACK");  
     }  
 }  
